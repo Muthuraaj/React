@@ -9,6 +9,7 @@ const NewExpense = (props) => {
     };
     props.onAddexpense(newvalues);
   };
+
   return (
     <div className="new-expense">
       <NewExpenseForm onsavechange={savechangehandler} />
