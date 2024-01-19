@@ -1,0 +1,20 @@
+.data{
+    color: white;
+    width: 50%;
+    height:20%
+}
+.listStyles{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding: 5px;
+}
+.listStyles li{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    list-style-type: none;
+    border: 1px gray solid;
+}
